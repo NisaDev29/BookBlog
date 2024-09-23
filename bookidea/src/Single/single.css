@@ -1,0 +1,29 @@
+.booksingle {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  width: 80%;
+  margin: 0 auto;
+}
+.singleImg {
+  flex: 40%;
+  height: 500px;
+}
+.singleTitle {
+  font-weight: 300;
+  font-size: 60px;
+}
+.singleOther {
+  font-weight: 300;
+  font-size: 26px;
+  padding: 0;
+  margin: 0;
+}
+.singleDesc {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}

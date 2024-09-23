@@ -1,0 +1,82 @@
+.mainTitle {
+  text-align: center;
+  color: goldenrod;
+  font-size: 50px;
+}
+.mainPart {
+  margin: 3rem 7rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: normal;
+  align-items: center;
+  gap: 1.5rem;
+}
+.bookCard {
+  margin-bottom: 10px;
+}
+.bookImg {
+  width: 250px;
+  height: 300px;
+  object-fit: fit;
+  padding: 0;
+}
+.bookTitle {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+.bookOther {
+  margin: 0;
+  margin-top: 5px;
+  font-weight: 400;
+  color: rgb(55, 53, 53);
+}
+.buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+.mainButton {
+  background-color: goldenrod;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 30px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 5px 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.mainAddButton {
+  position: relative;
+  width: 300px;
+  padding: 10px 20px;
+  left: 40%;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid black;
+  outline: none;
+}
